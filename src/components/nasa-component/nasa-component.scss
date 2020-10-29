@@ -1,0 +1,59 @@
+.nasa-comp {
+
+    .copyright{
+        background-color: rgba(0, 0, 0, 0.466);
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        width: 100%;
+        font-weight: 100;
+        transform: translate(-50%,0%);
+        margin: 0;
+        span{
+            font-weight: bold;
+        }
+    }
+    .img-box {
+        position: relative;
+        width: fit-content;
+        margin: 0 auto;
+        img {
+            margin: 0 auto;
+            max-width: 400px;
+        }
+
+        h1{
+            position: absolute;
+            width: 100%;
+            visibility: hidden;
+            opacity: 0;
+            top: 50%;
+            left: 50%;
+            padding: 10px;
+            transform: translate(-50%, -100%);
+            transition: .5s;
+        }
+
+        &:hover{
+            h1{
+                visibility: visible;
+                opacity: 1;
+                background-color: #0d0e0f;
+            }
+        }
+
+        a{
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            left: 0;
+            top: 0;
+        }
+    }
+
+    p {
+        max-width: 600px;
+        margin: 1rem auto;
+    }
+
+}

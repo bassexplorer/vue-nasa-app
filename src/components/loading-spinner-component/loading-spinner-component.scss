@@ -1,0 +1,18 @@
+#spinner{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(100, 1, 1, 0.445);
+
+    img{
+        position: absolute;
+        margin: auto;
+        width: 50px;
+        height: auto;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -100%);
+    }
+}
