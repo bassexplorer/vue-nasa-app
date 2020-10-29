@@ -1,4 +1,5 @@
-# This application is my first vue app. With this I tried to explore and learn new things in connection with frameworks.
+# Nasa Api Vue Application
+This application is my first vue app. With this I tried to explore and learn new things in connection with frameworks.
 
 ## Project setup
 ```
