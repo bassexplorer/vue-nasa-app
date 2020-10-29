@@ -1,4 +1,4 @@
-# nasa-api-spa-v1
+# This application is my first vue app. With this I tried to explore and learn new things in connection with frameworks.
 
 ## Project setup
 ```
